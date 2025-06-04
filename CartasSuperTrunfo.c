@@ -28,5 +28,23 @@ int main() {
 
   printf("\n");
 
+  printf("Carta 2:\n");
+  printf("Estado (A-H): ");
+  scanf(" %c", &estado2);
+  printf("Codigo da Carta (ex: B02): ");
+  scanf("%s", codigo2);
+  printf("Nome da Cidade: ");
+  scanf(" %[^\n]", cidade2);
+  printf("Populacao: ");
+  scanf("%d", &populacao2);
+  printf("Area (em km2): ");
+  scanf("%f", &area2);
+  printf("PIB (em bilhoes de reais): ");
+  scanf("%f", &pib2);
+  printf("Numero de Pontos Turisticos: ");
+  scanf("%d", &pontos2);
+
+  printf("\n");
+
     return 0;
 }
